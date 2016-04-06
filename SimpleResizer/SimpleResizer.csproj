@@ -194,11 +194,8 @@
     <None Include="Resources\records 128.png" />
     <None Include="Resources\folder - open 128.png" />
     <None Include="Resources\Warning - Triangle 32.png" />
-    <Content Include="License.txt" />
     <Content Include="Properties\SimpleResizer novista.ico">
     </Content>
-    <Content Include="Release Notes.txt" />
-    <Content Include="TODO.txt" />
   </ItemGroup>
   <ItemGroup>
     <PublishFile Include="nl\SimpleResizer.resources">
