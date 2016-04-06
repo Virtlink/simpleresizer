@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ImageFilePattern1" xml:space="preserve">
+    <value>*.jpg;*.jpeg;*.png;*.bmp</value>
+  </data>
+  <data name="MainFormMarginBottom" xml:space="preserve">
+    <value>Ondermarge:</value>
+  </data>
+  <data name="MainFormMarginLeft" xml:space="preserve">
+    <value>Linkermarge:</value>
+  </data>
+  <data name="MainFormMarginRight" xml:space="preserve">
+    <value>Rechtermarge:</value>
+  </data>
+  <data name="MainFormMarginTop" xml:space="preserve">
+    <value>Bovenmarge:</value>
+  </data>
+  <data name="MainFormPreviewWait" xml:space="preserve">
+    <value>Een ogenblik geduld...</value>
+  </data>
+  <data name="MainFormTitle" xml:space="preserve">
+    <value>{0} {1} {2}.{3}</value>
+  </data>
+  <data name="MainFormValidateHeightBigMultiple" xml:space="preserve">
+    <value>Een waarde van {0} pixels is erg hoog.</value>
+  </data>
+  <data name="MainFormValidateHeightSmallMultiple" xml:space="preserve">
+    <value>Een waarde van {0} pixels is erg laag.</value>
+  </data>
+  <data name="MainFormValidateHeightSmallSingle" xml:space="preserve">
+    <value>Een waarde van één pixel is erg laag.</value>
+  </data>
+  <data name="MainFormValidateMarginHHigh" xml:space="preserve">
+    <value>Met zo'n hoge waarde valt de stempel deels of geheel buiten de afbeelding.</value>
+  </data>
+  <data name="MainFormValidateMarginHLow" xml:space="preserve">
+    <value>Met een negatieve waarde valt de stempel deels of geheel buiten de afbeelding.</value>
+  </data>
+  <data name="MainFormValidateMarginVHigh" xml:space="preserve">
+    <value>Met zo'n hoge waarde valt de stempel deels of geheel buiten de afbeelding.</value>
+  </data>
+  <data name="MainFormValidateMarginVLow" xml:space="preserve">
+    <value>Met een negatieve waarde valt de stempel deels of geheel buiten de afbeelding.</value>
+  </data>
+  <data name="MainFormValidateQualityLow" xml:space="preserve">
+    <value>De kwaliteit van de resulterende afbeelding is erg laag ingesteld.</value>
+  </data>
+  <data name="MainFormValidateStampTransparencyHigh" xml:space="preserve">
+    <value>De doorzichtigheid van de stempel is erg hoog ingesteld. De stempel is dan niet zichtbaar.</value>
+  </data>
+  <data name="MainFormValidateWidthBigMultiple" xml:space="preserve">
+    <value>Een waarde van {0} pixels is erg breed.</value>
+  </data>
+  <data name="MainFormValidateWidthSmallMultiple" xml:space="preserve">
+    <value>Een waarde van {0} pixels is erg smal.</value>
+  </data>
+  <data name="MainFormValidateWidthSmallSingle" xml:space="preserve">
+    <value>Een waarde van één pixel is erg smal.</value>
+  </data>
+  <data name="MsgProblemSolverClashCSFMultiple" xml:space="preserve">
+    <value>Er zijn {0} items met hetzelfde doelbestand als ander items in het project. Met de optie 'Maak submappen' wordt dit probleem voorkomen. Wilt u deze optie inschakelen? Zo nee, worden deze items overgeslagen.</value>
+  </data>
+  <data name="MsgProblemSolverClashCSFSingle" xml:space="preserve">
+    <value>Er is één item met hetzelfde doelbestand als een ander item in het project. Met de optie 'Maak submappen' wordt dit probleem voorkomen. Wilt u deze optie inschakelen? Zo nee, wordt dit item overgeslagen.</value>
+  </data>
+  <data name="MsgProblemSolverClashCSFTitle" xml:space="preserve">
+    <value>Problemen</value>
+  </data>
+  <data name="MsgProblemSolverClashMultiple" xml:space="preserve">
+    <value>{0} items met hetzelfde doelbestand als andere items</value>
+  </data>
+  <data name="MsgProblemSolverClashSingle" xml:space="preserve">
+    <value>één item met hetzelfde doelbestand als een ander item</value>
+  </data>
+  <data name="MsgProblemSolverDestExistsMultiple" xml:space="preserve">
+    <value>Er zijn {0} items waarvan het doelbestand reeds bestaat. Wilt u deze bestanden overschrijven? Zo nee, worden deze items overgeslagen.</value>
+  </data>
+  <data name="MsgProblemSolverDestExistsSingle" xml:space="preserve">
+    <value>Er is één item waarvan het doelbestand reeds bestaat. Wilt u dit bestand overschrijven? Zo nee, wordt dit item overgeslagen.</value>
+  </data>
+  <data name="MsgProblemSolverDestExistsTitle" xml:space="preserve">
+    <value>Doelbestand bestaat reeds</value>
+  </data>
+  <data name="MsgProblemSolverDupMultiple" xml:space="preserve">
+    <value>{0} items die dubbel voorkomen in het project</value>
+  </data>
+  <data name="MsgProblemSolverDupSingle" xml:space="preserve">
+    <value>één item dat dubbel voorkomt in het project</value>
+  </data>
+  <data name="MsgProblemSolverIntro" xml:space="preserve">
+    <value>De volgende problemen zijn gevonden:</value>
+  </data>
+  <data name="MsgProblemSolverNonExtMultiple" xml:space="preserve">
+    <value>{0} items waarvan het bronbestand niet gevonden kon worden</value>
+  </data>
+  <data name="MsgProblemSolverNonExtSingle" xml:space="preserve">
+    <value>één item waarvan het bronbestand niet gevonden kon worden</value>
+  </data>
+  <data name="MsgProblemSolverOutro" xml:space="preserve">
+    <value>Als u doorgaat worden al deze items overgeslagen. Wilt u doorgaan?</value>
+  </data>
+  <data name="MsgProblemSolverTitle" xml:space="preserve">
+    <value>Problemen</value>
+  </data>
+  <data name="MsgProcessCancelled" xml:space="preserve">
+    <value>Geannuleerd.</value>
+  </data>
+  <data name="MsgProcessCancelledTitle" xml:space="preserve">
+    <value>Geannuleerd</value>
+  </data>
+  <data name="MsgProcessError" xml:space="preserve">
+    <value>Er is een fout opgetreden.</value>
+  </data>
+  <data name="MsgProcessErrorTitle" xml:space="preserve">
+    <value>Fout</value>
+  </data>
+  <data name="MsgProcessFinished" xml:space="preserve">
+    <value>Klaar!</value>
+  </data>
+  <data name="MsgProcessFinishedTitle" xml:space="preserve">
+    <value>Klaar</value>
+  </data>
+  <data name="MsgProjectClearAll" xml:space="preserve">
+    <value>Weet u zeker dat u elk item uit de lijst wilt wissen?</value>
+  </data>
+  <data name="MsgProjectClearAllTitle" xml:space="preserve">
+    <value>Alles wissen</value>
+  </data>
+  <data name="MsgProjectDestFolderNotFound" xml:space="preserve">
+    <value>De doelmap bestaat niet. Kan niet doorgaan.</value>
+  </data>
+  <data name="MsgProjectDestFolderNotFoundTitle" xml:space="preserve">
+    <value>Doelmap bestaat niet</value>
+  </data>
+  <data name="MsgProjectNewFilenamePatternInvalid" xml:space="preserve">
+    <value>Het gegeven nieuwe bestandsnaam patroon '{0}' bevat ongeldige velden (velden starten met '%').</value>
+  </data>
+  <data name="MsgProjectNewFilenamePatternInvalidTitle" xml:space="preserve">
+    <value>Nieuw bestandsnaam patroon</value>
+  </data>
+  <data name="MsgProjectNewFilenamePatternYieldsSingleFilename" xml:space="preserve">
+    <value>Het gegeven nieuwe bestandsnaam patroon '{0}' geeft alle bestanden dezelfde bestandsnaam. Gebruik de '%n' en/of '%c' velden in het patroon.</value>
+  </data>
+  <data name="MsgProjectNewFilenamePatternYieldsSingleFilenameTitle" xml:space="preserve">
+    <value>Nieuw bestandsnaam patroon</value>
+  </data>
+  <data name="MsgProjectStampNotFound" xml:space="preserve">
+    <value>Het stempelbestand is niet gevonden. Kan niet doorgaan.</value>
+  </data>
+  <data name="MsgProjectStampNotFoundTitle" xml:space="preserve">
+    <value>Stempelbestand niet gevonden</value>
+  </data>
+  <data name="MsgStatusCollectingContent" xml:space="preserve">
+    <value>Huidig item: {0}
+	Items verwerkt: {1} items
+	Items verzameld: {2} items</value>
+  </data>
+  <data name="MsgStatusCollectingInstr" xml:space="preserve">
+    <value>Verzamelen van subitems van {0} items</value>
+  </data>
+  <data name="MsgStatusCollectingTitle" xml:space="preserve">
+    <value>Verzamelen</value>
+  </data>
+  <data name="MsgStatusContent" xml:space="preserve">
+    <value>Een ogenblik geduld...</value>
+  </data>
+  <data name="MsgStatusInstr" xml:space="preserve">
+    <value>Bezig...</value>
+  </data>
+  <data name="MsgStatusItemUnknown" xml:space="preserve">
+    <value>&lt;onbekend&gt;</value>
+  </data>
+  <data name="MsgStatusProcessingContent" xml:space="preserve">
+    <value>Huidig item: {0}
+	Items verwerkt: {1} items
+	Items overgeslagen: {2} items</value>
+  </data>
+  <data name="MsgStatusProcessingInstr" xml:space="preserve">
+    <value>Verwerken {0} items</value>
+  </data>
+  <data name="MsgStatusProcessingTitle" xml:space="preserve">
+    <value>Verwerken</value>
+  </data>
+  <data name="MsgStatusTitle" xml:space="preserve">
+    <value>Bezig</value>
+  </data>
+  <data name="MsgStatusValidatingContent" xml:space="preserve">
+    <value>Items gecontroleerd: {0} items
+	Problemen gevonden: {1} problemen</value>
+  </data>
+  <data name="MsgStatusValidatingInstr" xml:space="preserve">
+    <value>Controleren {0} items</value>
+  </data>
+  <data name="MsgStatusValidatingTitle" xml:space="preserve">
+    <value>Controleren</value>
+  </data>
+  <data name="StatusBarItemCount" xml:space="preserve">
+    <value>{0} bestand(en) en {1} map(pen)</value>
+  </data>
+</root>

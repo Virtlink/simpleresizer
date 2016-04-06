@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="FolderOpenBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder - open 128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ImageFilePattern" xml:space="preserve">
+    <value>*.jpg;*.jpeg;*.png;*.bmp</value>
+  </data>
+  <data name="MainFormMarginBottom" xml:space="preserve">
+    <value>Bottom margin:</value>
+  </data>
+  <data name="MainFormMarginLeft" xml:space="preserve">
+    <value>Left margin:</value>
+  </data>
+  <data name="MainFormMarginRight" xml:space="preserve">
+    <value>Right margin:</value>
+  </data>
+  <data name="MainFormMarginTop" xml:space="preserve">
+    <value>Top margin:</value>
+  </data>
+  <data name="MainFormPreviewWait" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="MainFormTitle" xml:space="preserve">
+    <value>{0} {1} {2}.{3}</value>
+  </data>
+  <data name="MainFormValidateHeightBigMultiple" xml:space="preserve">
+    <value>A value of {0} pixels is very high.</value>
+  </data>
+  <data name="MainFormValidateHeightSmallMultiple" xml:space="preserve">
+    <value>A value of {0} pixels is very low.</value>
+  </data>
+  <data name="MainFormValidateHeightSmallSingle" xml:space="preserve">
+    <value>A value of one pixel is very low.</value>
+  </data>
+  <data name="MainFormValidateMarginHHigh" xml:space="preserve">
+    <value>With such a high margin value the stamp will be (partially) obscured.</value>
+  </data>
+  <data name="MainFormValidateMarginHLow" xml:space="preserve">
+    <value>With a negative margin value the stamp will be (partially) obscured.</value>
+  </data>
+  <data name="MainFormValidateMarginVHigh" xml:space="preserve">
+    <value>With such a high margin value the stamp will be (partially) obscured.</value>
+  </data>
+  <data name="MainFormValidateMarginVLow" xml:space="preserve">
+    <value>With a negative margin value the stamp will be (partially) obscured.</value>
+  </data>
+  <data name="MainFormValidateQualityLow" xml:space="preserve">
+    <value>The resulting image quality is set very low.</value>
+  </data>
+  <data name="MainFormValidateStampTransparencyHigh" xml:space="preserve">
+    <value>The stamp's transparency is set very high. The stamp will not be visible.</value>
+  </data>
+  <data name="MainFormValidateWidthBigMultiple" xml:space="preserve">
+    <value>A value of {0} pixels is very wide.</value>
+  </data>
+  <data name="MainFormValidateWidthSmallMultiple" xml:space="preserve">
+    <value>A value of {0} pixels is very small.</value>
+  </data>
+  <data name="MainFormValidateWidthSmallSingle" xml:space="preserve">
+    <value>A value of one pixel is very small.</value>
+  </data>
+  <data name="MsgProblemSolverClashCSFMultiple" xml:space="preserve">
+    <value>	MsgProblemSolverClashCSFSingle	There are {0} items with the same destination file as other items in this project. With the option 'Create subfolders' will these problems be solved. Do you want to enable this option? If not, these items will be skipped.	</value>
+  </data>
+  <data name="MsgProblemSolverClashCSFSingle" xml:space="preserve">
+    <value>There is one item with the same destination file as another item in this project. With the option 'Create subfolders' will this problem be solved. Do you want to enable this option? If not, this item will be skipped.</value>
+  </data>
+  <data name="MsgProblemSolverClashCSFTitle" xml:space="preserve">
+    <value>Problems</value>
+  </data>
+  <data name="MsgProblemSolverClashMultiple" xml:space="preserve">
+    <value>{0} items with the same destination file as other items in this project</value>
+  </data>
+  <data name="MsgProblemSolverClashSingle" xml:space="preserve">
+    <value>one item with the same destination file as another item in this project</value>
+  </data>
+  <data name="MsgProblemSolverDestExistsMultiple" xml:space="preserve">
+    <value>There are {0} items whose destination files already exist. Do you want to overwrite these files? If not, these items will be skipped.</value>
+  </data>
+  <data name="MsgProblemSolverDestExistsSingle" xml:space="preserve">
+    <value>There is one item whose destination file already exists. Do you want to overwrite this file? If not, this item will be skipped.</value>
+  </data>
+  <data name="MsgProblemSolverDestExistsTitle" xml:space="preserve">
+    <value>Destination file exists</value>
+  </data>
+  <data name="MsgProblemSolverDupMultiple" xml:space="preserve">
+    <value>{0} items which occur more than once in this project</value>
+  </data>
+  <data name="MsgProblemSolverDupSingle" xml:space="preserve">
+    <value>one item which occurs more than once in this project</value>
+  </data>
+  <data name="MsgProblemSolverIntro" xml:space="preserve">
+    <value>The following problems have been determined:</value>
+  </data>
+  <data name="MsgProblemSolverNonExtMultiple" xml:space="preserve">
+    <value>{0} items whose source files could not be found</value>
+  </data>
+  <data name="MsgProblemSolverNonExtSingle" xml:space="preserve">
+    <value>one item whose source file could not be found</value>
+  </data>
+  <data name="MsgProblemSolverOutro" xml:space="preserve">
+    <value>When you continue, all these items will be skipped. Do you want to continue?</value>
+  </data>
+  <data name="MsgProblemSolverTitle" xml:space="preserve">
+    <value>Problems</value>
+  </data>
+  <data name="MsgProcessCancelled" xml:space="preserve">
+    <value>Cancelled.</value>
+  </data>
+  <data name="MsgProcessCancelledTitle" xml:space="preserve">
+    <value>Cancelled</value>
+  </data>
+  <data name="MsgProcessError" xml:space="preserve">
+    <value>Some error has occured.</value>
+  </data>
+  <data name="MsgProcessErrorTitle" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="MsgProcessFinished" xml:space="preserve">
+    <value>Finished!</value>
+  </data>
+  <data name="MsgProcessFinishedTitle" xml:space="preserve">
+    <value>Finished</value>
+  </data>
+  <data name="MsgProjectClearAll" xml:space="preserve">
+    <value>Are you sure you want to remove every item from the list?</value>
+  </data>
+  <data name="MsgProjectClearAllTitle" xml:space="preserve">
+    <value>Clear all</value>
+  </data>
+  <data name="MsgProjectDestFolderNotFound" xml:space="preserve">
+    <value>The destination folder does not exist. Cannot continue.</value>
+  </data>
+  <data name="MsgProjectDestFolderNotFoundTitle" xml:space="preserve">
+    <value>Nonexistant destination folder</value>
+  </data>
+  <data name="MsgProjectNewFilenamePatternInvalid" xml:space="preserve">
+    <value>The specified new filename pattern '{0}' contains invalid fields (fields are those which start with '%').</value>
+  </data>
+  <data name="MsgProjectNewFilenamePatternInvalidTitle" xml:space="preserve">
+    <value>New filename pattern</value>
+  </data>
+  <data name="MsgProjectNewFilenamePatternYieldsSingleFilename" xml:space="preserve">
+    <value>The specified new filename pattern '{0}' would result in all the files getting the same filename. Use the '%n' and/or '%c' fields in the pattern.</value>
+  </data>
+  <data name="MsgProjectNewFilenamePatternYieldsSingleFilenameTitle" xml:space="preserve">
+    <value>New filename pattern</value>
+  </data>
+  <data name="MsgProjectStampNotFound" xml:space="preserve">
+    <value>The stampfile is not found. Cannot continue.</value>
+  </data>
+  <data name="MsgProjectStampNotFoundTitle" xml:space="preserve">
+    <value>Stampfile not found</value>
+  </data>
+  <data name="MsgStatusCollectingContent" xml:space="preserve">
+    <value>Current item: {0}
+	Items processed: {1} items
+	Items collected: {2} items</value>
+  </data>
+  <data name="MsgStatusCollectingInstr" xml:space="preserve">
+    <value>Collecting subitems of {0} items</value>
+  </data>
+  <data name="MsgStatusCollectingTitle" xml:space="preserve">
+    <value>Collecting</value>
+  </data>
+  <data name="MsgStatusContent" xml:space="preserve">
+    <value>Please wait...</value>
+  </data>
+  <data name="MsgStatusInstr" xml:space="preserve">
+    <value>Busy...</value>
+  </data>
+  <data name="MsgStatusItemUnknown" xml:space="preserve">
+    <value>&lt;unknown&gt;</value>
+  </data>
+  <data name="MsgStatusProcessingContent" xml:space="preserve">
+    <value>Current item: {0}
+	Items processed: {1} items
+	Items skipped: {2} items</value>
+  </data>
+  <data name="MsgStatusProcessingInstr" xml:space="preserve">
+    <value>Processing {0} items</value>
+  </data>
+  <data name="MsgStatusProcessingTitle" xml:space="preserve">
+    <value>Processing</value>
+  </data>
+  <data name="MsgStatusTitle" xml:space="preserve">
+    <value>Busy</value>
+  </data>
+  <data name="MsgStatusValidatingContent" xml:space="preserve">
+    <value>Items validated: {0} items
+	Problems found: {1} problems</value>
+  </data>
+  <data name="MsgStatusValidatingInstr" xml:space="preserve">
+    <value>Validating {0} items</value>
+  </data>
+  <data name="MsgStatusValidatingTitle" xml:space="preserve">
+    <value>Validating</value>
+  </data>
+  <data name="MultiFilesBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\records 128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StatusBarItemCount" xml:space="preserve">
+    <value>{0} file(s) en {1} folder(s)</value>
+  </data>
+  <data name="WarningIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Warning - Triangle 32.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

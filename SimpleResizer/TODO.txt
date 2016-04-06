@@ -1,0 +1,101 @@
+KNOWN BUGS
+==========
+- De gegenereerde naam die onder het preview plaatje zou moeten verschijnen,
+  heeft nooit de correcte global counter. En dit kan waarschijnlijk ook niet,
+  aangezien het niet bekend is hoeveel items er in een map zitten (want dat
+  brengt de global counter omhoog). Dus is het nooit een accurate weergave.
+- De niet-naam regels van de Tile-view zijn niet grijs maar zwart.
+
+FEATURES
+========
+* Voorbeeldnaam tonen onderaan opties.
+* Andere About-box
+* In BatchProcessor een rapport aanmaken met de gebeurtenissen en fouten.
+* Meerdere operaties op dezelfde bestanden (bijv. gewone versie, thumbnails)
+* Ondersteuning voor Regular Expressions voor het hernoemen van de bestanden.
+* Optie: alles overschrijven + vraag of de gebruiker dat echt wil
+* Optie: fouten negeren, controle overslaan.
+* Optie: controle overslaan, vragen wanneer fout optreed.
+* ProgressBar voor Preview vervangen door tekst: "Een momentje alstublieft..."
+* Mogelijkheden voor sorteren, herschikken en de weergave (groot, lijst, details)
+  van de ListView.
+* Repeat-x, y toevoegen voor stamp, als een soort watermerk.  
+* 'Recursief' toevoegen aan Project menu.
+* Project opslaan, openen, etc...
+* Sorteren bij invoegen (zie FileInfoComparer.cs)
+* Totaal aantal bestanden en mappen updaten in StatusBalk.
+* Nieuwe bestandsnaam tonen onder preview foto.
+* %-tekens zijn toegestaan in bestandsnamen. Hoe te voorkomen dat zulke
+  bestandsnamen onmogelijk worden? (%-tekens ook gewoon mogelijk in pattern,
+  en %-tekens in bestandsnaam moeten onaangetast blijven.)
+* Exceptions opvangen en rapporteren.
+* Met aankruisvakje alleen tekens toestaan in bestandsnamen en het patroon die
+  op websites werken.
+* Laatst gewijzigd datum weergeven in kolom.
+* Sorteren
+* Drag-en-drop support
+* Rand maken, support voor:
+3x3-BITMAP
+==========
+  +---+----------+---+
+  |   |          |   |
+  +---+----------+---+
+  |   |..........|   |
+  |   |..........|   |
+  |   |..........|   |
+  |   |..........|   |
+  +---+----------+---+
+  |   |          |   |
+  +---+----------+---+
+
+7x7-BITMAP
+==========
+  +---+-----+---------+--+---------+-----+---+
+  |   |     |         |  |         |     |   |
+  +---+-----+---------+--+---------+-----+---+
+  |   |.....|.........|..|.........|.....|   |
+  |   |.....|.........|..|.........|.....|   |
+  +---+-----+---------+--+---------+-----+---+
+  |   |.....|.........|..|.........|.....|   |
+  |   |.....|.........|..|.........|.....|   |
+  |   |.....|.........|..|.........|.....|   |
+  +---+-----+---------+--+---------+-----+---+
+  |   |.....|.........|..|.........|.....|   |
+  +---+-----+---------+--+---------+-----+---+
+  |   |.....|.........|..|.........|.....|   |
+  |   |.....|.........|..|.........|.....|   |
+  |   |.....|.........|..|.........|.....|   |
+  +---+-----+---------+--+---------+-----+---+
+  |   |.....|.........|..|.........|.....|   |
+  |   |.....|.........|..|.........|.....|   |
+  +---+-----+---------+--+---------+-----+---+
+  |   |     |         |  |         |     |   |
+  +---+-----+---------+--+---------+-----+---+
+---
+* Globalisatie
+  - Engels
+  - Nederlands
+* Installatie
+
+* Melding wanneer bestand dubbel in de lijst staat.
+* Lijst opslaan.
+* Lijst met bestanden gesorteert.
+* Mogelijkheid tot toevoegen mappen
+* Wanneer de preview afbeelding kleiner is dan het preview deel,
+  de afbeelding niet vergroten.
+* Een kleine rand rond het previewdeel vrijlaten.
+* Batch settings moeten kunnen worden opgeslagen en geladen worden.
+  - Speciaal bestandsformaat waar ook alle bestanden die worden gereferenced
+    in worden bewaard? (ZIP?)
+* Mogelijkheid om stempel te tilen in horizontale en/of verticale richting.
+* Mogelijkheid om preview venster uit te zetten (dicht te klappen?).
+* Mogelijkheid om meerdere bestanden te selecteren, zodat ze in één keer
+  uit de lijst verwijderd kunnen worden.
+* Test of de opgegeven filename pattern wel legale bestandsnamen oplevert.
+* Vinkjes bij de bestanden die voltooid zijn tijdens het verwerken.
+* Voor aanvang van de verwerking een check of de nieuw te maken bestanden al
+  bestaan, en dan een melding met alle getroffen bestanden, of deze overschreven
+  moeten worden.
+* Vanuit de Verkenner een map of een aantal bestanden kunnen selecteren om die
+  te resizen.
+* Vanuit de Verkenner mappen en bestanden naar het programma slepen.

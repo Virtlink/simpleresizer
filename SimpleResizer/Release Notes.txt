@@ -1,0 +1,39 @@
+SimpleResizer 1.5.2.11
+======================
+Released: not yet
+FIXED:
+- 
+ADDED:
++ The new filename can now be specified by two simple
+  text input fields instead of an advanced filename pattern,
+  at the user's choice.
+
+SimpleResizer 1.5.1.10
+======================
+Released: 20 december 2007
+FIXED:
+- File and folder counter on statusbar did not update properly.
+- Exception when clicking Execute while the project contains
+  no items.
+- Application icon
+- Strange counting of clash-problems, where 50 files could lead to
+  over 500 clash problems.
+- The lowest quality throws exceptions.
+ADDED:
++ Use %% in a filename pattern to get a % in the filename.
++ Checks whether the given filename pattern would result in all
+  items getting the same filename.
++ Checks whether the filename pattern contains any invalid fields.
++ Every item now has an icon.
++ Change the view of the list to Bigicons, List, Details and Tiles.
++ "Busy..." label under preview image, replacing the progress bar.
++ Padding around preview image.
+REMOVED:
+- The progress bar for the preview area.
+- The Index-column.
+
+SimpleResizer 1.5.0.8
+=====================
+Released: 19 december 2007
+FIXED:
+- ClickOnce installation missed a file.

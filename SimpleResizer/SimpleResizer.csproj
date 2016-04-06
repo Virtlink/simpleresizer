@@ -1,0 +1,215 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB27EBEA-3A63-4CED-B434-D8D70B048DA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimpleResizer</RootNamespace>
+    <AssemblyName>SimpleResizer</AssemblyName>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>06BFED27024EC1470F81354F6BFE94B03424F01D</ManifestCertificateThumbprint>
+    <ManifestKeyFile>SimpleResizer_1_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <ApplicationIcon>Properties\SimpleResizer novista.ico</ApplicationIcon>
+    <TargetZone>Internet</TargetZone>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>SimpleResizer_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
+    <PublishUrl>D:\Mijn documenten\Mijn projecten\Batch Processing\SimpleResizer\SimpleResizer\Publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Background</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.16tonweight.com/</SupportUrl>
+    <TargetCulture>en</TargetCulture>
+    <ProductName>SimpleResizer</ProductName>
+    <PublisherName>16tonweight Software</PublisherName>
+    <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
+    <ApplicationVersion>1.5.1.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Batch.cs" />
+    <Compile Include="BatchFile.cs" />
+    <Compile Include="BatchFolder.cs" />
+    <Compile Include="BatchItem.cs" />
+    <Compile Include="BatchProcessor.cs" />
+    <Compile Include="BatchProcessSettings.cs" />
+    <Compile Include="FileInfoComparer.cs" />
+    <Compile Include="frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCustomFilenameEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCustomFilenameEditor.Designer.cs">
+      <DependentUpon>frmCustomFilenameEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProcessingStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProcessingStatus.Designer.cs">
+      <DependentUpon>frmProcessingStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReport.Designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PreviewResult.cs" />
+    <Compile Include="ProcessingItem.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAbout.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomFilenameEditor.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomFilenameEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCustomFilenameEditor.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCustomFilenameEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcessingStatus.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProcessingStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProcessingStatus.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmProcessingStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReport.nl.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.nl.resx">
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="SimpleResizer_TemporaryKey.pfx" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Settings.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Resources\records 128.png" />
+    <None Include="Resources\folder - open 128.png" />
+    <None Include="Resources\Warning - Triangle 32.png" />
+    <None Include="SimpleResizer_1_TemporaryKey.pfx" />
+    <Content Include="License.txt" />
+    <Content Include="Properties\SimpleResizer novista.ico">
+    </Content>
+    <Content Include="Release Notes.txt" />
+    <Content Include="TODO.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="nl\SimpleResizer.resources">
+      <Visible>False</Visible>
+      <PublishState>Include</PublishState>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="TODO.txt">
+      <Visible>False</Visible>
+      <PublishState>Exclude</PublishState>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
